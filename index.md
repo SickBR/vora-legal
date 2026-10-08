@@ -14,7 +14,7 @@ title: VORA – Privacy Policy / Datenschutzerklärung
 
 ## English
 
-VORA is a Discord bot for moderation, tickets, role menus, a level system, a server log and welcome messages.
+VORA is a Discord bot for moderation, tickets, role menus, a level system, an economy, a server log and welcome messages.
 This page explains which data VORA processes and for how long.
 
 ### Who is responsible?
@@ -35,6 +35,7 @@ hosting provider Bot-Hosting.net, which runs VORA for the operator and can techn
 | Tickets | Discord ID of the opener and the staff member, category, **the description that was entered**, reason for closing, times |
 | Role menus & auto role | Role and channel IDs, titles, labels and emojis of the menus |
 | Settings | Channel IDs for log and welcome message, the welcome text, the language, retention periods |
+| Economy (only if turned on and used) | Discord ID, Lumen balance, daily streak (current and best), time of the last daily bonus |
 | Level system (only if turned on) | Discord ID and XP (level and rank are calculated from it) and which reward roles were already given |
 | Privacy | The time VORA left a server (needed for the deletion period below) |
 
@@ -60,7 +61,7 @@ tickets and assigning roles. The legal basis is the legitimate interest in a saf
   server team can choose 30 days to 5 years. An admin can delete single cases at any time.
 - **Warnings** stop counting after 90 days by default (adjustable); until the deletion period they stay stored
   for traceability.
-- Settings, role menus and XP stay as long as VORA is on the server.
+- Settings, role menus, XP and Lumen balances stay as long as VORA is on the server.
 - **If VORA is removed from a server, it automatically deletes all data of that server after 30 days.** The
   period protects against data loss from an accidental removal. If VORA returns within the 30 days, the data is kept.
 - **Backups:** The database is backed up daily and the last 7 copies are kept. Deleted data can therefore remain
@@ -78,7 +79,7 @@ complaint with a data protection supervisory authority.
 
 ## Deutsch
 
-VORA ist ein Discord-Bot für Moderation, Tickets, Rollenmenüs, ein Levelsystem, ein Server-Log und
+VORA ist ein Discord-Bot für Moderation, Tickets, Rollenmenüs, ein Levelsystem, eine Economy, ein Server-Log und
 Willkommensnachrichten. Diese Seite erklärt, welche Daten VORA verarbeitet und wie lange.
 
 ### Wer ist verantwortlich?
@@ -100,6 +101,7 @@ gehosteten Daten zugreifen kann.
 | Tickets | Discord-ID von Ersteller und Bearbeiter, Kategorie, **die eingegebene Beschreibung**, Grund beim Schließen, Zeitpunkte |
 | Rollenmenüs & Autorole | Rollen- und Kanal-IDs, Titel, Beschriftungen und Emojis der Menüs |
 | Einstellungen | Kanal-IDs für Log und Begrüßung, der Begrüßungstext, die Sprache, Aufbewahrungsfristen |
+| Economy (nur wenn eingeschaltet und genutzt) | Discord-ID, Lumen-Kontostand, tägliche Serie (aktuell und Rekord), Zeitpunkt des letzten täglichen Bonus |
 | Levelsystem (nur wenn eingeschaltet) | Discord-ID und XP-Stand (daraus ergeben sich Level und Platz) sowie welche Belohnungsrollen schon vergeben wurden |
 | Datenschutz | Zeitpunkt, an dem VORA einen Server verlassen hat (für die Löschfrist unten) |
 
@@ -126,7 +128,7 @@ Interesse an einem sicheren und organisierten Server (Art. 6 Abs. 1 lit. f DSGVO
   1 Jahr, das Server-Team kann 30 Tage bis 5 Jahre einstellen. Einzelne Fälle kann ein Admin jederzeit löschen.
 - **Verwarnungen** zählen standardmäßig nach 90 Tagen nicht mehr (einstellbar), bis zur Löschfrist bleiben sie
   für die Nachvollziehbarkeit gespeichert.
-- Einstellungen, Rollenmenüs und XP bleiben, solange VORA auf dem Server ist.
+- Einstellungen, Rollenmenüs, XP und Lumen-Kontostände bleiben, solange VORA auf dem Server ist.
 - **Wird VORA von einem Server entfernt, löscht VORA nach 30 Tagen automatisch alle Daten dieses Servers.**
   Die Frist schützt vor Datenverlust durch ein versehentliches Entfernen. Kommt VORA innerhalb der 30 Tage
   zurück, bleiben die Daten erhalten.
