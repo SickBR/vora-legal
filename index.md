@@ -47,6 +47,8 @@ hosting provider Bot-Hosting.net, which runs VORA for the operator and can techn
   **briefly in memory**, checks it and forgets it immediately. For repeat detection VORA keeps only a fingerprint (hash), not
   the text, for the set time (at most 2 minutes). Admins, members with "Manage Server" or "Manage Messages", bots and exempt roles
   are never checked. `/purge` deletes messages without reading or storing them.
+- **Warned members receive a direct message** from VORA with the server name, the reason, the number of their active
+  warnings and when the warning expires (the team can turn this off). VORA does not store this message.
 - **No online status and no activities.**
 - **No data outside Discord**, no sharing with third parties, no advertising, no tracking.
 
@@ -118,6 +120,8 @@ gehosteten Daten zugreifen kann.
   Wiederholungs-Erkennung merkt sich VORA nur einen Fingerabdruck (Hash), keinen Text, für die eingestellte Zeit (höchstens
   2 Minuten). Admins, Mitglieder mit „Server verwalten“ oder „Nachrichten verwalten“, Bots und Ausnahme-Rollen werden nie
   geprüft. `/purge` löscht Nachrichten, ohne sie zu lesen oder zu speichern.
+- **Verwarnte Mitglieder bekommen eine Direktnachricht** von VORA mit Servername, Grund, Zahl ihrer aktiven Verwarnungen
+  und dem Ablaufdatum der Verwarnung (das Team kann das abschalten). VORA speichert diese Nachricht nicht.
 - **Keinen Online-Status und keine Aktivitäten.**
 - **Keine Daten außerhalb von Discord**, keine Weitergabe an Dritte, keine Werbung, kein Tracking.
 
