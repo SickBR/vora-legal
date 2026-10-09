@@ -37,7 +37,7 @@ hosting provider Bot-Hosting.net, which runs VORA for the operator and can techn
 | Settings | Channel IDs for log and welcome message, the welcome text, the language, retention periods |
 | AutoMod by VORA (only if turned on) | Settings (thresholds, penalty steps, allowed websites, exempt roles). A violation is stored like any warning as a case: Discord ID, reason (e.g. "AutoMod: caps spam"), time and weight (1 to 3). **The message text is not stored.** The same retention periods apply as for all cases |
 | Profile (only if someone uses it) | Earned badges with date and the "About me" text the person wrote themselves (at most 120 characters, no links), per server and person. The profile picture is drawn only for display, using the person's Discord avatar, name and profile banner (if they have one), and is not stored |
-| Economy (only if turned on and used) | Discord ID, Lumen balance, daily streak (current and best), time of the last daily bonus |
+| Economy (only if turned on and used) | Discord ID, Lumen balance (cash and bank), daily streak (current and best), time of the last daily bonus |
 | Level system (only if turned on) | Discord ID and XP (level and rank are calculated from it) and which reward roles were already given |
 | Privacy | The time VORA left a server (needed for the deletion period below) |
 
@@ -110,7 +110,7 @@ gehosteten Daten zugreifen kann.
 | Einstellungen | Kanal-IDs für Log und Begrüßung, der Begrüßungstext, die Sprache, Aufbewahrungsfristen |
 | AutoMod von VORA (nur wenn eingeschaltet) | Einstellungen (Schwellen, Strafstufen, erlaubte Internet-Seiten, Ausnahme-Rollen). Ein Verstoß wird wie jede Verwarnung als Fall gespeichert: Discord-ID, Grund (z. B. „AutoMod: Caps-Spam“), Zeitpunkt und Gewicht (1 bis 3). **Der Nachrichtentext wird nicht gespeichert.** Es gelten dieselben Fristen wie für alle Fälle |
 | Profil (nur wenn jemand es nutzt) | Verdiente Abzeichen mit Datum und der selbst geschriebene „Über mich“-Text (höchstens 120 Zeichen, ohne Links), pro Server und Person. Das Profilbild wird nur zum Anzeigen gezeichnet (mit dem Discord-Avatar, dem Namen und dem Profil-Banner der Person, falls vorhanden) und nicht gespeichert |
-| Economy (nur wenn eingeschaltet und genutzt) | Discord-ID, Lumen-Kontostand, tägliche Serie (aktuell und Rekord), Zeitpunkt des letzten täglichen Bonus |
+| Economy (nur wenn eingeschaltet und genutzt) | Discord-ID, Lumen-Kontostand (Bargeld und Bank), tägliche Serie (aktuell und Rekord), Zeitpunkt des letzten täglichen Bonus |
 | Levelsystem (nur wenn eingeschaltet) | Discord-ID und XP-Stand (daraus ergeben sich Level und Platz) sowie welche Belohnungsrollen schon vergeben wurden |
 | Datenschutz | Zeitpunkt, an dem VORA einen Server verlassen hat (für die Löschfrist unten) |
 
