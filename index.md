@@ -35,14 +35,18 @@ hosting provider Bot-Hosting.net, which runs VORA for the operator and can techn
 | Tickets | Discord ID of the opener and the staff member, category, **the description that was entered**, reason for closing, times |
 | Role menus & auto role | Role and channel IDs, titles, labels and emojis of the menus |
 | Settings | Channel IDs for log and welcome message, the welcome text, the language, retention periods |
+| AutoMod by VORA (only if turned on) | Settings (thresholds, penalty steps, allowed websites, exempt roles). A violation is stored like any warning as a case: Discord ID, reason (e.g. "AutoMod: caps spam"), time and weight (1 to 3). **The message text is not stored.** The same retention periods apply as for all cases |
 | Economy (only if turned on and used) | Discord ID, Lumen balance, daily streak (current and best), time of the last daily bonus |
 | Level system (only if turned on) | Discord ID and XP (level and rank are calculated from it) and which reward roles were already given |
 | Privacy | The time VORA left a server (needed for the deletion period below) |
 
 ### What VORA does not store
 
-- **No message contents.** VORA cannot read the content of chat messages. For the level system it only learns
-  *that* and *where* someone wrote and counts XP. `/purge` deletes messages without reading or storing them.
+- **No message contents are stored.** For the level system VORA only learns *that* and *where* someone wrote and counts XP.
+  Only if the team turns on VORA's own AutoMod (caps, repeats, emojis, links), VORA reads the text of messages
+  **briefly in memory**, checks it and forgets it immediately. For repeat detection VORA keeps only a fingerprint (hash), not
+  the text, for the set time (at most 2 minutes). Admins, members with "Manage Server" or "Manage Messages", bots and exempt roles
+  are never checked. `/purge` deletes messages without reading or storing them.
 - **No online status and no activities.**
 - **No data outside Discord**, no sharing with third parties, no advertising, no tracking.
 
@@ -101,15 +105,19 @@ gehosteten Daten zugreifen kann.
 | Tickets | Discord-ID von Ersteller und Bearbeiter, Kategorie, **die eingegebene Beschreibung**, Grund beim Schließen, Zeitpunkte |
 | Rollenmenüs & Autorole | Rollen- und Kanal-IDs, Titel, Beschriftungen und Emojis der Menüs |
 | Einstellungen | Kanal-IDs für Log und Begrüßung, der Begrüßungstext, die Sprache, Aufbewahrungsfristen |
+| AutoMod von VORA (nur wenn eingeschaltet) | Einstellungen (Schwellen, Strafstufen, erlaubte Internet-Seiten, Ausnahme-Rollen). Ein Verstoß wird wie jede Verwarnung als Fall gespeichert: Discord-ID, Grund (z. B. „AutoMod: Caps-Spam“), Zeitpunkt und Gewicht (1 bis 3). **Der Nachrichtentext wird nicht gespeichert.** Es gelten dieselben Fristen wie für alle Fälle |
 | Economy (nur wenn eingeschaltet und genutzt) | Discord-ID, Lumen-Kontostand, tägliche Serie (aktuell und Rekord), Zeitpunkt des letzten täglichen Bonus |
 | Levelsystem (nur wenn eingeschaltet) | Discord-ID und XP-Stand (daraus ergeben sich Level und Platz) sowie welche Belohnungsrollen schon vergeben wurden |
 | Datenschutz | Zeitpunkt, an dem VORA einen Server verlassen hat (für die Löschfrist unten) |
 
 ### Was VORA nicht speichert
 
-- **Keine Nachrichteninhalte.** VORA hat keinen Zugriff auf den Inhalt von Chat-Nachrichten. Für das Levelsystem
-  erfährt VORA nur, *dass* und *wo* jemand geschrieben hat, und zählt daraus XP. `/purge` löscht Nachrichten,
-  ohne sie zu lesen oder zu speichern.
+- **Keine Nachrichteninhalte gespeichert.** Für das Levelsystem erfährt VORA nur, *dass* und *wo* jemand geschrieben hat,
+  und zählt daraus XP. Nur wenn das Team VORAs eigenen AutoMod einschaltet (Caps, Wiederholungen, Emojis, Links), liest VORA
+  den Text der Nachrichten **kurz im Arbeitsspeicher**, prüft ihn und vergisst ihn sofort wieder. Für die
+  Wiederholungs-Erkennung merkt sich VORA nur einen Fingerabdruck (Hash), keinen Text, für die eingestellte Zeit (höchstens
+  2 Minuten). Admins, Mitglieder mit „Server verwalten“ oder „Nachrichten verwalten“, Bots und Ausnahme-Rollen werden nie
+  geprüft. `/purge` löscht Nachrichten, ohne sie zu lesen oder zu speichern.
 - **Keinen Online-Status und keine Aktivitäten.**
 - **Keine Daten außerhalb von Discord**, keine Weitergabe an Dritte, keine Werbung, kein Tracking.
 
