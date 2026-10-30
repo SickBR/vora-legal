@@ -6,7 +6,7 @@ title: VORA – Privacy Policy / Datenschutzerklärung
 
 [English](#english) · [Deutsch](#deutsch)
 
-*Last updated / Stand: 27 October 2026*
+*Last updated / Stand: 30 October 2026*
 
 ---
 
@@ -14,7 +14,7 @@ title: VORA – Privacy Policy / Datenschutzerklärung
 
 ## English
 
-VORA is a Discord bot for moderation, AutoMod, join verification, tickets, role menus, a level system, profiles,
+VORA is a Discord bot for moderation, AutoMod, tickets, role menus, a level system, profiles,
 giveaways, the game VORA World, a server log and welcome messages. This page explains which data VORA processes and for how long.
 
 ### Who is responsible?
@@ -35,7 +35,6 @@ hosting provider Bot-Hosting.net, which runs VORA for the operator and can techn
 | Tickets | Discord ID of the opener and the staff member, category, **the description that was entered**, reason for closing, times |
 | Role menus & auto role | Role and channel IDs, titles, labels and emojis of the menus |
 | Settings | Channel IDs for log and welcome message, the welcome text, the language, retention periods |
-| Join verification (only if set up) | Only server settings: on/off, channel ID, role ID and the ID of the verification message. **VORA stores nothing per person:** whether someone is verified is shown only by the role on Discord. Against click spam VORA remembers for a few seconds, in memory only, when someone last clicked |
 | AutoMod: Discord's rules (only if turned on) | Nothing at VORA: the rules, including a custom word list, are stored by Discord |
 | AutoMod: VORA's own checks (only if turned on) | Settings (thresholds, penalty steps, allowed websites, exempt roles and channels). A violation is stored like any warning as a case: Discord ID, reason (e.g. "AutoMod: caps spam"), time and weight (1 to 3). **The message text is not stored.** The same retention periods apply as for all cases |
 | VORA World (only if turned on and used) | **One account per person for all servers:** Discord ID, Lumen (cash and bank), daily streak, character, clothes and other items (owned, equipped, when received), housing (where someone lives, bought homes, rent due and unpaid rent, lock after an eviction), starter quests (which were claimed, simple counters such as "meals eaten" or "total wages"), a short pose (e.g. after eating), job, skills, needs, bank card and statement (last 50 bookings). Also on which servers the person plays (only server and Discord ID, for the "this server" leaderboard) and when they last played (for the deletion period). No message contents |
@@ -112,7 +111,7 @@ complaint with a data protection supervisory authority.
 
 ## Deutsch
 
-VORA ist ein Discord-Bot für Moderation, AutoMod, Beitritts-Verifizierung, Tickets, Rollenmenüs, ein Levelsystem, Profile,
+VORA ist ein Discord-Bot für Moderation, AutoMod, Tickets, Rollenmenüs, ein Levelsystem, Profile,
 Giveaways, das Spiel VORA World, ein Server-Log und Willkommensnachrichten. Diese Seite erklärt, welche Daten VORA verarbeitet und wie lange.
 
 ### Wer ist verantwortlich?
@@ -134,7 +133,6 @@ gehosteten Daten zugreifen kann.
 | Tickets | Discord-ID von Ersteller und Bearbeiter, Kategorie, **die eingegebene Beschreibung**, Grund beim Schließen, Zeitpunkte |
 | Rollenmenüs & Autorole | Rollen- und Kanal-IDs, Titel, Beschriftungen und Emojis der Menüs |
 | Einstellungen | Kanal-IDs für Log und Begrüßung, der Begrüßungstext, die Sprache, Aufbewahrungsfristen |
-| Beitritts-Verifizierung (nur wenn eingerichtet) | Nur Einstellungen des Servers: an/aus, Kanal-ID, Rollen-ID und die ID der Verifizierungs-Nachricht. **Pro Person speichert VORA nichts:** Wer verifiziert ist, zeigt allein die Rolle bei Discord. Gegen Klick-Spam merkt sich VORA wenige Sekunden lang im Arbeitsspeicher, wann jemand zuletzt geklickt hat |
 | AutoMod: Discords Regeln (nur wenn eingeschaltet) | Nichts bei VORA: Die Regeln samt eigener Wortliste liegen bei Discord |
 | AutoMod: VORAs eigene Prüfung (nur wenn eingeschaltet) | Einstellungen (Schwellen, Strafleiter, erlaubte Internet-Seiten, Ausnahme-Rollen und -Kanäle). Ein Verstoß wird wie jede Verwarnung als Fall gespeichert: Discord-ID, Grund (z. B. „AutoMod: Caps-Spam“), Zeitpunkt und Gewicht (1 bis 3). **Der Nachrichtentext wird nicht gespeichert.** Es gelten dieselben Fristen wie für alle Fälle |
 | VORA World (nur wenn eingeschaltet und genutzt) | **Ein Konto pro Person für alle Server:** Discord-ID, Lumen (Bargeld und Bank), tägliche Serie, Charakter, Kleidung und andere Teile (Besitz, ausgerüstet, Erhalt-Zeitpunkt), Wohnen (wo man wohnt, gekaufte Immobilien, Fälligkeit und offene Miete, Sperre nach einem Rauswurf), Start-Aufgaben (welche abgeholt, einfache Zähler wie „gegessen“ oder „Lohn gesamt“), kurze Pose (z. B. nach dem Essen), Job, Fähigkeiten, Versorgung, Bankkarte und Kontoauszug (letzte 50 Buchungen). Dazu, auf welchen Servern die Person spielt (nur Server- und Discord-ID, für die Rangliste „Dieser Server“), und wann sie zuletzt gespielt hat (für die Löschfrist). Kein Nachrichteninhalt |
