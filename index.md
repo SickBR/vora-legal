@@ -4,7 +4,7 @@ title: VORA – Privacy Policy / Datenschutzerklärung
 
 # VORA – Privacy Policy / Datenschutzerklärung
 
-[English](#english) · [Deutsch](#deutsch)
+[English](#english) · [Deutsch](#deutsch) · [Terms of Service / Nutzungsbedingungen](terms/)
 
 *Last updated / Stand: 30 October 2026*
 
